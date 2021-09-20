@@ -1,0 +1,160 @@
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* fits view window and has a max width*/
+body {
+    width:100vw;
+    background-color: #ffffff;
+}
+/*top of the page-inc,name and nav*/
+.banner {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100px;
+    background-color: #e2e2e2;
+}
+.name{
+    margin: 0 5%;
+}
+.name p {
+    padding-top:10px;
+    font-size:larger;
+    color: #000000;
+    font-family: fantasy;
+}
+#seal {
+    padding-top: 10px;
+    width: 50%;
+    margin-left: 20px;
+}
+.nav ul li {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.nav ul li a {
+    color: darkgreen ;
+}
+/*3 main boxes of content*/
+.section {
+    display: flex;
+    font-size: larger;
+    margin-top: 25px;
+    max-width: 1400px;
+    min-width: 750px;
+}
+/*left boxes*/
+.section h1 {
+    color: royalblue;
+    font-size: larger;
+    min-width: 140px;
+    text-align: right;
+    padding-right: 10px;
+    margin-left: 30px;
+    margin-right: -0.5em;
+    border-style: none solid none none;
+    border-color: red;
+}
+#pic {
+    margin: 25px;
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+}
+.section div p {
+    font-size: medium;
+}
+/*portfolio content (main box)*/
+.portcontent {
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*portfolio content margins*/
+.portcontent div, span {
+    margin-bottom: 5px;
+    margin-right: 5px;    
+}
+/*big box*/
+.ex1 {
+    background-size: 100%;
+    height: 485px;
+    width: 350px;
+    background-image:url("/images/Screenshothw1.png");
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    display: block;
+    transition: .5s;
+}
+.ex1:hover {
+    border-color: tomato;
+}
+.ex1:hover p {
+    background-color: tomato;
+}
+.ex1 p{
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 3px;
+    position: relative;
+    top: 440px;
+    transition: .5s;
+}
+/*small boxes (transition=glowtime)*/
+.portcontent div {
+    background-size: 100%;
+    height: 242px;
+    width: 175px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    display: block;
+    transition: .5s;
+}
+.portcontent div p{
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    width:fit-content;
+    padding: 3px;
+    padding-right: 5px;
+    position: relative;
+    top: 205px;
+    transition: .5s;
+}
+.ex2 {
+    background-image:url("/images/mountain.jpeg")
+}
+.ex3 {
+    background-image:url("/images/cactuar.jpeg")
+}
+.ex4 {
+    background-image:url("/images/monkeyhead.jpeg")
+}
+.ex5 {
+    background-image:url("/images/wow.jpeg")
+}
+/*psuedo-class for hover over color change*/
+.ex2:hover,.ex3:hover,.ex4:hover,.ex5:hover {
+    border-color: tomato;
+}
+.ex2:hover p,.ex3:hover p,.ex4:hover p,.ex5:hover p {
+    background-color: tomato;
+}
+/*contacts content (main box)*/
+.contactcontent {
+    margin: 25px;
+    width: 100vh;
+    margin-bottom: 25px;
+}
+.contactcontent ul{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
