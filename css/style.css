@@ -17,6 +17,13 @@ body {
     height:100px;
     background-color: #e2e2e2;
 }
+.panorama {
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 250px;
+    background-image: url("../images/panorama.jpeg");
+}
 .name{
     margin: 0 5%;
 }
@@ -83,7 +90,7 @@ body {
     background-size: 100%;
     height: 485px;
     width: 350px;
-    background-image:url("images/Screenshothw1.png");
+    background-image:url("../images/Screenshothw1.png");
     border-style: solid;
     border-width: 5px;
     border-color: black;
@@ -91,10 +98,10 @@ body {
     transition: .5s;
 }
 .ex1:hover {
-    border-color: tomato;
+    border-color: rgb(71, 74, 255);
 }
 .ex1:hover p {
-    background-color: tomato;
+    background-color: rgb(71, 74, 255);
 }
 .ex1 p{
     font-size: 1em;
@@ -129,16 +136,16 @@ body {
     transition: .5s;
 }
 .ex2 {
-    background-image:url("images/mountain.jpeg")
+    background-image:url('../images/mountain.jpeg');
 }
 .ex3 {
-    background-image:url("images/cactuar.jpeg")
+    background-image:url("../images/cactuar.jpeg");
 }
 .ex4 {
-    background-image:url("images/monkeyhead.jpeg")
+    background-image:url("../images/monkeyhead.jpeg");
 }
 .ex5 {
-    background-image:url("images/wow.jpeg")
+    background-image:url("../images/wow.jpeg");
 }
 /*psuedo-class for hover over color change*/
 .ex2:hover,.ex3:hover,.ex4:hover,.ex5:hover {
