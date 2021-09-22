@@ -9,7 +9,7 @@ In this assignment, we were given a blank slate to create a website to showcase 
 * CSS
 
 ## Webpage
-![Portfolio](/images/Screenshothw2.png)
+![Portfolio](/images/screenshothw2.png)
 
 ## Link to webpage
 **[Portfolio](https://sitmeister.github.io/Homework-2-Portfolio-RS/)**
